@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+	</head>
+	<body>
+		<div class="header"></div>
+		<div class="main" >
+			<div class="box">
+				<div class="login_box">
+					<ul class="login_box">
+						<li><h1>新用户注册</h1><span><a href="login.html">已有账号</a></span></li>
+                        <li class="li">
+	                        <input class="inputs phone" required="required" placeholder="手机号码" name="phone" type="text">
+                    		<span class="info"></span>
+                        </li>
+                        
+                        <li class="li">
+                    		<input type="text" class="inputs pass" placeholder="设置密码" />
+                    	</li>
+                    	
+                    	<li class="li">
+                    		<input type="text" class="inputs code" placeholder="输入验证码"/>
+                    		<span class="info"></span>
+                    		<img class="content"></img>
+                    		<button class="inputs codes">换一张</button>
+                    	</li>
+                    	
+                    	<li class="li">
+                    		<input type="text" class="inputs re_pass" placeholder="重复密码" />
+                    	</li>
+                    	<li class="li">
+                    		<button class="inputs register">立即注册</button>
+                    		<span class="err"></span>
+                    	</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer"></div>
+		
+		<script src="../lib/requirejs/require.js" data-main = "../js/register"></script>
+	</body>
+</html>

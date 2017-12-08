@@ -1,0 +1,98 @@
+$w:1159px;
+.box{
+    width: $w;
+    height: 354px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin: 20px auto;
+    .top{
+        width: 1139px;
+        height: 50px;
+        line-height: 50px;
+        background:lavenderblush;
+        padding-left:20px ;
+        border-radius: 8px 7px 0px 0px;
+        
+    }
+    .left{
+        width: 650px;
+        height: 250px;
+        float: left;
+        border-right: 1px solid #ccc;
+        margin-top: 30px;
+        .rr{
+            width: 517px;
+            height: 30px;
+            margin-top: 30px;
+            margin-left: 70px;
+            display: flex;
+            justify-content: space-between;
+            span{
+                margin-right: 15px;
+            }
+            input{
+                width: 155px;
+                height: 25px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+        }
+        .quyu{
+            width: 600px;
+            float: left;
+            margin-left: 25px;
+            .sel{
+                width: 122px;
+                height: 30px;
+               border: 1px solid #ccc;
+                border-radius: 5px;
+                margin-right: 33px;
+            }
+            .area{
+                margin-left: 30px;
+                margin-right: 0;
+                margin-top: 10px;
+                position: relative;
+            }
+        }
+        .address{
+            margin-top: 71px;
+            margin-left: 57px;
+        }
+        textarea{
+            margin-top: -13px;
+            width: 491px;
+            height: 106px;
+            margin-left: 123px;
+             border-radius: 5px;
+        }
+    }
+    .right{
+        width: 430px;
+        height: 300px;
+        float: right;
+        position: relative;
+        .rig{
+            width: 100px;
+            height: 100px;
+             position: absolute;
+             top: 0;left: 0;right: 0;bottom: 0;  
+             margin: auto;
+             .check{
+                 font-size: 20px;
+                 color: gray;
+                 color: #ccc;
+             }
+             button{
+                 width: 158px;
+                 height: 50px;
+                 line-height: 50px;
+                 background: royalblue;
+                 margin-top: 20px;
+                 border: none;
+                 color: white;
+                 margin-left:-19px;
+             }
+        }
+    }
+}

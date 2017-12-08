@@ -1,0 +1,88 @@
+
+.main{
+    width: 100%;
+    height: 570px;
+    background: url(../img/bgi.png) no-repeat;
+    background-size: 1845px 570px;
+    .box{
+        width: 331px;
+        height: 417px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        float: right;
+        margin-top: 44px;
+        margin-right: 43px;
+        background: white;
+        padding:40px;
+        .login_box{
+             width: 332px;
+            height: 414px;
+            overflow: hidden;
+            h1{
+                font-size: 21px;
+                font-weight: normal;
+                float: left;
+            }
+            .li{
+                .inputs{
+                    padding-left: 50px;
+                    border: 1px solid #ccc;
+                    width: 279px;
+                    height: 35px;
+                    border-radius: 5px;
+                    margin-top: 20px;
+                }
+                .phone{
+                    margin-top: 42px;
+                    background: url(../img/icon_user.png) no-repeat 10px 2px;
+                }
+                .re_pass{
+                    background: url(../img/icon_password2.png) no-repeat 10px 1px;
+                }
+                .login{
+                    width: 331px;
+                    height: 50px;
+                    background: lightblue;
+                    font-size: 20px;
+                    color: white;
+                    text-align: center;
+                    padding-left: 0;
+                    margin-top: 46px;
+                    border: none;
+                    cursor: pointer;
+                }
+                .method{
+                    margin-left: 12px;
+                    margin-top: 20px;
+                }
+                .imgg{
+                    margin-left: 72px;
+                    margin-top: 4px;
+                }
+                .wei{
+                    display: flex;
+                    justify-content: space-between;
+                    a{
+                        color: gray;
+                       text-decoration: none;
+                    }
+                    .bo{
+                        margin-left: 77px;
+                        
+                    }
+                    .qq{
+                       margin-right: 122px; 
+                    }
+                }
+            }
+            .forget{
+                margin-top: 10px;
+                display: flex;
+                justify-content: space-between;
+                a{
+                    color: gray;
+                }
+            }
+        }
+    }
+}

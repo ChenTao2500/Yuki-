@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/list.css"/>
+	</head>
+	<body>
+		<div class="header" ></div>
+		<div class="main">
+			<p>Yuki动漫  <span>>搜索结果</span></p>
+			<div class="box"></div>
+			<div class="s"></div>
+		<script type="text/html" id="product_list">
+			{{each lists as list index}}
+			<div class="part1">
+					<input type="hidden" class="id"  value="{{list.id}}"/>
+					<a href="detail.html"><img class="img" src="{{list.img}}"/></a>
+					<a href="detail.html"><p title="{{list.title}}" class="title">{{list.title}}</p></a>
+					<a href="detail.html" style="position: relative;">
+						<b style="color: red;position                                                                                                                                                                                              : absolute;left: 75px; font-weight: normal;">￥：</b>
+						<span class="price" >{{list.price}}</span>
+						<b style="color: red;font-weight: normal;">.0</b>
+					</a>
+					<a href="#"><span class="youhui" style="display: none">暂无优惠</span></a>
+			</div>
+			{{/each}}
+		</script>
+		<script type="text/html" id="product_like">
+			{{each likes as like index}}
+				<div class="like" >
+					<input type="hidden"  value="{{like.id}}" />
+					<a href="detail.html"><img src="{{like.img}}" class="img"/></a>
+					<a href="detail.html"><p class="title">{{like.title}}</p></a>
+					<a href="detail.html"><span class="price">￥：{{like.price}}.0</span></a>
+				</div>
+			{{/each}}
+		</script>
+		
+		</div>
+		<div class="footer"></div>
+		<script src="../lib/requirejs/require.js" data-main = "../js/list"></script>
+	</body>
+</html>

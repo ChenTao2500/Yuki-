@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/cart.css"/>
+	</head>
+	<body>
+		<!--网页头部-->
+		<div class="header"></div>
+		<!--网页主体-->
+		<div class="main">
+			<!--// 购物车-->
+			<div class="cart">
+				<div class="title"> <!--购物车顶部标题栏-->
+					<div class="ck"><label><input type="checkbox" id="ck_all">全选</label></div>
+					<div class="img">图片</div>
+					<div class="name">商品信息</div>
+					<div class="price">单价</div>
+					<div class="amount">数量</div>
+					<div class="youhui">优惠</div>
+					<div class="sub">总价</div>
+					<div class="oper">操作</div>
+				</div>
+				<div class="cart_body"></div>
+			</div>
+			
+			<div class="totl">
+				<span class="total">00.00</span>
+				<a href="confirm.html"><span class="suan">结算</span></a>
+			</div>
+
+		</div>
+		<div class="guess"><h1 class="tit">猜你喜欢</h1></div>
+		<!--猜你喜欢模板-->
+		<script type="text/html" id="product_like">
+			{{each likes as like index}}
+				<div class="like" >
+					<input type="hidden" class="id" value="{{like.id}}" >
+					<a href="detail.html"><img src="{{like.img}}" class="img" /></a>
+					<a href="detail.html"><p class="title">{{like.title}}</p></a>
+					<a href="detail.html"><span class="s1">￥:</span><span class="price">{{like.price}}</span><span class="s2">.0</span></a>
+				</div>
+			{{/each}}
+		</script>
+		<div class="likes"></div>
+		<!--网页尾部-->
+		<div class="footer"></div>
+	<script src="../lib/requirejs/require.js" data-main = "../js/cart"></script>
+	</body>
+</html>

@@ -1,0 +1,127 @@
+.header_part {
+  height: 145px;
+  width: 100%;
+}
+.header_part .nav {
+  height: 35px;
+  background: #333;
+  padding: 0 20px;
+}
+.header_part .nav .left {
+  width: 500px;
+  height: 35px;
+  line-height: 35px;
+  float: left;
+  background: url(../img/laba.jpg) no-repeat 114px 11px;
+}
+.header_part .nav .left p {
+  float: left;
+  color: white;
+  padding: 0 20px;
+}
+.header_part .nav .right {
+  float: right;
+  margin-right: 15px;
+}
+.header_part .nav .right li {
+  float: left;
+  line-height: 35px;
+  padding: 0 12px;
+  background: url(../img/bor.png) no-repeat 41px 8px;
+}
+.header_part .nav .right li a {
+  color: white;
+}
+.header_part .nav .right li:nth-of-type(5) {
+  background: none;
+}
+.header_part .nav .right li:nth-of-type(4) {
+  background: url(../img/bor.png) no-repeat 65px 8px;
+}
+.header_part .logo_part {
+  width: 100%;
+  height: 110px;
+  background: ghostwhite;
+  z-index: 999;
+  border-bottom: 1px solid #ccc;
+}
+.header_part .logo_part .logo {
+  float: left;
+  width: 300px;
+  margin-left: 38px;
+  margin-top: 23px;
+}
+.header_part .logo_part .search {
+  float: left;
+  width: 520px;
+  height: 61px;
+  margin-top: 25px;
+  margin-left: 12px;
+  position: relative;
+}
+.header_part .logo_part .search .top {
+  overflow: hidden;
+}
+.header_part .logo_part .search .top .ser {
+  width: 446px;
+  height: 30px;
+  border: 2px solid #669acc;
+  border-radius: 9px 0 0 9px;
+  padding-left: 15px;
+  float: left;
+}
+.header_part .logo_part .search .top .btn {
+  width: 50px;
+  height: 36px;
+  border: 2px solid #669acc;
+  border-left: none;
+  border-radius: 0 8px 8px 0;
+  margin-top: 0px;
+  float: left;
+  margin-right: 5px;
+  background: #669acc url(../img/ser.jpg) no-repeat 13px 5px;
+}
+.header_part .logo_part .search .top #info {
+  width: 439px;
+  position: absolute;
+  left: 5px;
+  top: 29px;
+  z-index: 999;
+}
+.header_part .logo_part .search .top #info div {
+  margin-top: 5px;
+  font-size: 15px;
+}
+.header_part .logo_part .search .bottom {
+  margin-top: 5px;
+}
+.header_part .logo_part .search .bottom li {
+  float: left;
+  padding: 0 11px;
+}
+.header_part .logo_part .search .bottom li a {
+  color: #ccc;
+}
+.header_part .logo_part .cart {
+  float: right;
+  width: 110px;
+  height: 30px;
+  border: 1px solid #ccc;
+  margin-top: 28px;
+  margin-right: 128px;
+  padding: 0 10px;
+  position: relative;
+}
+.header_part .logo_part .cart span {
+  margin-top: 5px;
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  font-size: 14px;
+}
+.header_part .logo_part .cart img {
+  margin-left: 54px;
+  margin-top: 6px;
+}
+
+/*# sourceMappingURL=header.css.map */

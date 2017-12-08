@@ -1,0 +1,12 @@
+{
+	"status":1,
+	"message":"success",
+	"id" :1,
+	"likes":[
+	{"id":17, "title":"意大利进口 Balocco 百乐可 脆皮酥 焦糖味 200g", "img":"../img/list17.JPEG", "price":45},
+	{"id":18, "title":"小米（MI）智能手环1代【光感心率版】小米手环 黑色腕带 LED指示灯", "img":"../img/list18.JPEG", "price":38},
+	{"id":19, "title":"金士顿（Kingston）16GB 80MB/s TF(Micro SD)Class10 UHS-I高速存储卡", "img":"../img/list19.JPEG", "price":8499},
+	{"id":20, "title":"三只松鼠_碧根果210gx2袋零食坚果炒货山核桃长寿果干果奶油味", "img":"../img/list20.JPEG", "price":59},
+	{"id":21, "title":"百草味 坚果零食干果 内含开果器 夏威夷果奶油味200g/袋", "img":"../img/list21.JPEG", "price":338}
+	]
+}

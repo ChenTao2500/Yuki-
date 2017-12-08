@@ -1,0 +1,139 @@
+$h : 35px;
+.header_part{
+    height: 145px;
+    width: 100%;
+    .nav{
+        height: $h;
+        background:#333;
+        padding: 0 20px;
+        .left{
+            width: 500px;
+            height: $h;
+            line-height:$h;
+            float: left;
+            background: url(../img/laba.jpg) no-repeat 114px 11px;
+            p{
+                float: left;
+                color: white;
+                padding: 0 20px;
+            }
+        }
+        .right{
+            float: right;
+            margin-right: 15px;
+            li{
+                float: left;
+                line-height: $h;
+                padding: 0 12px;
+                background: url(../img/bor.png) no-repeat 41px 8px;
+                a{
+                    color: white;
+                }
+            }
+            li:nth-of-type(5){
+                background: none;
+            }
+            li:nth-of-type(4){
+                background: url(../img/bor.png) no-repeat 65px 8px;
+            }
+        }
+    }
+    .logo_part{
+        width: 100%;
+        height: 110px;
+        background:ghostwhite;
+        z-index: 999;
+        border-bottom: 1px solid #ccc;
+        .logo{
+            float: left;
+            width: 300px;
+            margin-left: 38px;
+            margin-top: 23px;
+        }
+        .search{
+            float: left;
+            width: 520px;
+            height: 61px;
+            margin-top: 25px;
+            margin-left: 12px;
+            position: relative;
+            .top{
+                overflow: hidden;
+                .ser{
+                width: 446px;
+                height: 30px;
+                border: 2px solid #669acc;
+                border-radius: 9px 0 0 9px;
+                padding-left:15px ;
+                float: left;
+                }
+                .btn{
+                width: 50px;
+                height: 36px;
+                border: 2px solid #669acc;
+                border-left: none;
+                border-radius: 0 8px 8px 0;
+                margin-top: 0px;
+                float: left;
+                margin-right: 5px;
+                background:  #669acc url(../img/ser.jpg) no-repeat 13px 5px ;
+                }
+                #info{
+                    width:439px;
+                    position: absolute;
+                    left: 5px;
+                    top: 29px;
+                    z-index: 999;
+                    
+                    div{
+                        margin-top: 5px;
+                        font-size: 15px;
+                    }
+                }
+            }
+            .bottom{
+                margin-top: 5px;
+                li{
+                    float: left;
+                    padding: 0 11px;
+                    a{
+                        color: #ccc;
+                    }
+                }
+            }
+        }
+        .cart{
+            float: right;
+            width: 110px;
+             height: 30px;
+            border: 1px solid #ccc;
+            margin-top: 28px;
+            margin-right: 128px;
+            padding: 0 10px;
+            position: relative;
+            span{
+                margin-top: 5px;
+                position: absolute;
+                top: 2px;
+                left: 10px;
+                font-size: 14px;
+            }
+            img{
+                margin-left: 54px;
+                margin-top: 6px;
+            }
+//          i{
+//              width: 20px;
+//              height: 20px;
+//              margin-top: 5px;
+//              float: right;
+//              display: block;
+//              border-radius: 12px;
+//              background: red;
+//              color: white;
+//              text-align: center;
+//          }
+        }
+    }
+    
+}

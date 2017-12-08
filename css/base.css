@@ -1,0 +1,11 @@
+/*重置样式*/
+html, body,div, ul, li, ol, b,dl, dd, dt, p, h1, h2, h3, form, fieldset, legend, img ,header,main,nav,footer,section{ 
+		margin:0; padding:0; 
+		font-size: 12px;
+		}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}

@@ -1,0 +1,86 @@
+.box {
+  width: 1159px;
+  height: 354px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  margin: 20px auto; }
+  .box .top {
+    width: 1139px;
+    height: 50px;
+    line-height: 50px;
+    background: lavenderblush;
+    padding-left: 20px;
+    border-radius: 8px 7px 0px 0px; }
+  .box .left {
+    width: 650px;
+    height: 250px;
+    float: left;
+    border-right: 1px solid #ccc;
+    margin-top: 30px; }
+    .box .left .rr {
+      width: 517px;
+      height: 30px;
+      margin-top: 30px;
+      margin-left: 70px;
+      display: flex;
+      justify-content: space-between; }
+      .box .left .rr span {
+        margin-right: 15px; }
+      .box .left .rr input {
+        width: 155px;
+        height: 25px;
+        border: 1px solid #ccc;
+        border-radius: 5px; }
+    .box .left .quyu {
+      width: 600px;
+      float: left;
+      margin-left: 25px; }
+      .box .left .quyu .sel {
+        width: 122px;
+        height: 30px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-right: 33px; }
+      .box .left .quyu .area {
+        margin-left: 30px;
+        margin-right: 0;
+        margin-top: 10px;
+        position: relative; }
+    .box .left .address {
+      margin-top: 71px;
+      margin-left: 57px; }
+    .box .left textarea {
+      margin-top: -13px;
+      width: 491px;
+      height: 106px;
+      margin-left: 123px;
+      border-radius: 5px; }
+  .box .right {
+    width: 430px;
+    height: 300px;
+    float: right;
+    position: relative; }
+    .box .right .rig {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto; }
+      .box .right .rig .check {
+        font-size: 20px;
+        color: gray;
+        color: #ccc; }
+      .box .right .rig button {
+        width: 158px;
+        height: 50px;
+        line-height: 50px;
+        background: royalblue;
+        margin-top: 20px;
+        border: none;
+        color: white;
+        margin-left: -19px; }
+
+/*# sourceMappingURL=confirm.css.map */

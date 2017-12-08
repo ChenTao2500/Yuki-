@@ -1,0 +1,208 @@
+.main {
+  width: 1177px;
+  margin: 25px auto; }
+
+.top {
+  margin-bottom: 10px; }
+
+.zoomLens {
+  width: 150px !important;
+  height: 150px !important; }
+
+.zoom {
+  width: 1171px;
+  height: 400px;
+  margin: 20PX auto; }
+  .zoom .left {
+    width: 600px;
+    float: left; }
+    .zoom .left #gal1 img {
+      border: 1px solid #ccc;
+      border-radius: 5px; }
+    .zoom .left .active img {
+      border: 1px solid #333  !important;
+      border-radius: 5px; }
+    .zoom .left #img_0 {
+      width: 390px;
+      height: 403px;
+      border: 1px solid #C0C0C0;
+      border-radius: 5px;
+      margin-left: 96px; }
+    .zoom .left #gal1 img {
+      width: 80px;
+      height: 80px; }
+    .zoom .left .oo {
+      width: 82px;
+      margin-top: -407px; }
+  .zoom .right {
+    width: 571px;
+    height: 368px;
+    float: right; }
+    .zoom .right h1 {
+      font-size: 26px;
+      font-weight: normal;
+      margin-bottom: 10px; }
+    .zoom .right .hh {
+      display: block;
+      width: 571px;
+      height: 19px;
+      border-bottom: 1px dashed #ccc; }
+    .zoom .right p {
+      margin-top: 17px; }
+      .zoom .right p span {
+        margin-left: 20px;
+        display: inline-block; }
+      .zoom .right p .sp {
+        font-size: 20px;
+        color: palevioletred; }
+      .zoom .right p .sp1 {
+        color: red; }
+      .zoom .right p b {
+        width: 5px;
+        height: 5px;
+        border-radius: 6px;
+        background: black;
+        display: inline-block;
+        margin-right: 5px; }
+      .zoom .right p .sp2 {
+        margin-left: 23px;
+        padding-left: 11px;
+        background: url(../img/dot.png) no-repeat -2px 3px; }
+      .zoom .right p .sp3 {
+        margin-left: 23px;
+        padding-left: 11px;
+        background: url(../img/dot.png) no-repeat -2px 3px; }
+      .zoom .right p .sp4 {
+        width: 30px;
+        height: 24px;
+        border: 1px solid;
+        border-radius: 4px;
+        line-height: 24px;
+        text-align: center; }
+      .zoom .right p .out {
+        border: 1px solid #ccc;
+        height: 30px;
+        border-radius: 5px;
+        width: 96px;
+        position: relative; }
+        .zoom .right p .out .minus, .zoom .right p .out .add {
+          width: 19px;
+          height: 20px;
+          margin-top: 5px; }
+        .zoom .right p .out .minus {
+          display: inline-block;
+          margin-left: 10px; }
+        .zoom .right p .out .add {
+          position: absolute;
+          left: 55px;
+          top: 0px; }
+        .zoom .right p .out .num {
+          width: 30px;
+          height: 28px;
+          border: none;
+          border-right: 1px solid #ccc;
+          border-left: 1px solid #ccc;
+          text-align: center; }
+      .zoom .right p i {
+        font-style: normal;
+        margin-left: 10px;
+        display: inline-block;
+        width: 200px;
+        height: 30px; }
+    .zoom .right .buy {
+      width: 500px;
+      height: 40px;
+      margin-top: 26px; }
+      .zoom .right .buy .q {
+        display: block;
+        width: 144px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center; }
+      .zoom .right .buy .liji {
+        border: 2px solid #008080;
+        float: left;
+        color: #008080;
+        font-size: 15px; }
+      .zoom .right .buy .jia {
+        float: left;
+        height: 40px;
+        background: #008080;
+        margin-left: 50px;
+        color: white;
+        font-size: 15px; }
+      .zoom .right .buy img {
+        float: right;
+        margin-top: 2px;
+        margin-left: 30px; }
+
+.detail {
+  width: 1177px;
+  height: 500px;
+  margin-top: 50px; }
+  .detail .left {
+    width: 844px;
+    border-top: 1px solid #ccc;
+    float: left;
+    border-left: 1px solid #ccc; }
+    .detail .left span {
+      height: 50px;
+      display: inline-block;
+      text-align: center;
+      line-height: 50px;
+      border-bottom: 1px solid #ccc; }
+    .detail .left .xq {
+      width: 200px;
+      border-right: 1px solid #ccc; }
+    .detail .left .pj {
+      width: 642px;
+      border-right: 1px solid #ccc;
+      margin-left: -4px; }
+    .detail .left img {
+      display: block;
+      width: 844px; }
+  .detail .right {
+    width: 300px;
+    height: 861px;
+    float: right;
+    border: 1px solid #ccc;
+    border-radius: 5px; }
+    .detail .right p {
+      margin-left: 119px;
+      font-size: 15px;
+      margin-top: 17px; }
+    .detail .right dl {
+      width: 287px;
+      height: 130px;
+      overflow: hidden;
+      margin-top: 34px;
+      border-bottom: 1px dashed #ccc;
+      margin-left: 6px; }
+      .detail .right dl dt {
+        float: left;
+        width: 107px;
+        height: 100px; }
+        .detail .right dl dt img {
+          width: 100px;
+          height: 100px;
+          margin-top: -10px;
+          margin-left: 9px; }
+      .detail .right dl dd {
+        width: 180px;
+        height: 200px;
+        float: right; }
+        .detail .right dl dd .tit {
+          width: 183px;
+          display: block;
+          margin-bottom: 50px; }
+        .detail .right dl dd .prie {
+          margin-top: -5px;
+          color: red;
+          font-size: 20px;
+          float: left; }
+        .detail .right dl dd .num {
+          color: #ccc;
+          float: right;
+          margin-right: 10px; }
+
+/*# sourceMappingURL=detail.css.map */

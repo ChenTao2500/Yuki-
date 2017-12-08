@@ -1,0 +1,137 @@
+{
+	"status":1,
+	"message":"success",
+	"data":[
+			{
+			"id" : 1,
+			"title": "3C数码",
+				"right1":"手机",
+				"right2":"手机壳",
+				"right3":"手机配件",
+				"right4":"移动电源",
+				"right5" : "U盘",
+				"right6" :"鼠标键盘",
+			"bgPic":"img/f11.jpg",
+			"titles":[
+			{"id":1, "title":"Apple/苹果 12 英寸 MacBook", "img":"img/f12.JPEG", "price":8499},
+			{"id":2, "title":"SOLOVE素乐充电宝超薄便携苹果专用移动电源10000毫安可爱通用", "img":"img/f13.JPEG", "price":89},
+			{"id":3, "title":"Apple/苹果 iPhone 7", "img":"img/f14.JPEG", "price":4799},
+			{"id":4, "title":"爱国者充电宝10000毫安可爱聚合物移动电源超薄便携苹果手机通用", "img":"img/f15.JPEG", "price":79},
+			{"id":5, "title":"铝合金手机支架可兼容ipad mini 懒人支架桌面充电底座", "img":"img/f16.JPEG", "price":29},
+			{"id":6, "title":"乐心/lifesense微信脂肪秤S7", "img":"img/f17.JPEG", "price":299},
+			{"id":7, "title":"芬迪小怪兽小恶魔iphone7plus手机壳苹果6创意6s硅胶潮男ipone7", "img":"img/f18.JPEG", "price":25},
+			{"id":8, "title":"牧马人有线键盘鼠标套装电脑台式USB发光游戏机械手感lol", "img":"img/f19.JPEG", "price":30}
+			]
+			},
+			
+			{
+			"id" : 2,
+			"title": "品质生活",
+				"right1":"摆件",
+				"right2":"挂件",
+				"right3":"雨伞雨具",
+				"right4":"海报挂画",
+				"right5" : "床上用品",
+				"right6" :"洗浴用品",
+			"bgPic":"img/ff21.jpg",
+			"titles":[
+			{"id":1, "title":"日本象印 儿童吸管杯 粉红胖子宝宝双盖两用保温杯SC-ZT45-RA/PA 450ml", "img":"img/f22.JPEG", "price":338},
+			{"id":2, "title":"星星月亮毛绒玩具 柔软羽绒棉儿童安抚靠垫睡觉抱枕", "img":"img/f23.JPEG", "price":28},
+			{"id":3, "title":"简约纯棉四件套床上用品全棉床单被套床笠三件套1.5 1.8m2.0双人", "img":"img/f24.JPEG", "price":145},
+			{"id":4, "title":"韩版大容量水杯玻璃杯韩国玻璃杯创意随手杯便携男女学生可爱杯子", "img":"img/f25.JPEG", "price":15},
+			{"id":5, "title":"云朵简约抱枕汽车靠垫办公室毛绒靠枕沙发腰靠现代创意礼物", "img":"img/f26.JPEG", "price":36},
+			{"id":6, "title":"bilibili小电视机抱枕哔哩哔哩周边靠垫组合小电视全家福", "img":"img/f27.JPEG", "price":28},
+			{"id":7, "title":"日本手机链 挂饰 手机挂件 吊坠 幸福樱花铃铛 复古怀旧日本御守", "img":"img/f28.png", "price":98},
+			{"id":8, "title":"爆款浅灰色星之夜夜光星星鬼马小精灵宝宝安抚抱枕玩偶", "img":"img/f29.JPEG", "price":19}
+			]
+			},
+			
+			{
+			"id" : 3,
+			"title": "文具耗材",
+				"right1":"笔",
+				"right2":"本子",
+				"right3":"书签",
+				"right4":"贴纸",
+				"right5" : "胶带",
+				"right6" :"便利贴",
+			"bgPic":"img/f31.jpg",
+			"titles":[
+			{"id":1, "title":"日本进口 国誉Campus系列活页纸替芯 方格 笔记本文具活页芯", "img":"img/f32.png", "price":18},
+			{"id":2, "title":"物美工坊 韩国文具用品 简约透明磨砂水彩笔中性笔 彩色水笔油笔", "img":"img/f33.JPEG", "price":2},
+			{"id":3, "title":"卡通萌物贴纸包创意儿童小贴画手账日记DIY装饰贴纸", "img":"img/f34.JPEG", "price":4},
+			{"id":4, "title":"可爱猫咪留言记事N次贴 便利贴", "img":"img/f35.JPEG", "price":5},
+			{"id":5, "title":"paper mate缤乐美四色圆珠笔多色笔彩色笔芯学生 0.7按动原子笔Q1", "img":"img/f36.JPEG", "price":15},
+			{"id":6, "title":"学生专用简约0.5mm中性笔 文具学习办公签字笔 按压式黑色水笔", "img":"img/f37.png", "price":5},
+			{"id":7, "title":"可爱卡通碎花按扣文件袋 小清新PP材质", "img":"img/f38.JPEG", "price":3},
+			{"id":8, "title":"A4学生风琴包 多层资料册试卷袋", "img":"img/f39.JPEG", "price":11}
+			]
+			},
+			
+			{
+			"id" : 4,
+			"title": "服鞋箱包",
+				"right1":"T恤",
+				"right2":"卫衣",
+				"right3":"裤子",
+				"right4":"裙子",
+				"right5" : "套装",
+				"right6" :"鞋子",
+			"bgPic":"img/f41.jpg",
+			"titles":[
+			{"id":1, "title":"日系软妹夏装女装小清新中长款长袖网纱罩裙连衣裙+长吊带两件套", "img":"img/f42.JPEG", "price":55},
+			{"id":2, "title":"韩版宽松显瘦裙子2017新款少女学生日系软妹刺绣短袖连衣裙女夏", "img":"img/f43.JPEG", "price":49},
+			{"id":3, "title":"丝绸安全裤lolita南瓜裤夏宽松打底裤缎面短裤少女防走光灯笼裤", "img":"img/f44.JPEG", "price":25},
+			{"id":4, "title":"卡通小黄鸭同款黑白T恤", "img":"img/f45.JPEG", "price":49},
+			{"id":5, "title":"2017春装新款女装森系乌云贴布宽松连帽卫衣 五分袖学生帽衫上衣", "img":"img/f46.JPEG", "price":68},
+			{"id":6, "title":"背带裙女装2017新款夏韩版学生软妹连衣裙可爱小清新裙子聚", "img":"img/f47.JPEG", "price":188},
+			{"id":7, "title":"日系软妹学院风甜美刺绣海军领拼接格子A字裙夏季显瘦短袖连衣裙", "img":"img/f48.JPEG", "price":55},
+			{"id":8, "title":"垂耳兔单肩卡通零钱包毛绒 日系软妹包少女兔子斜挎包 动漫周边", "img":"img/f49.JPEG", "price":28}
+			]
+			},
+			
+			{
+			"id" : 5,
+			"title": "家用电器",
+				"right1":"灯",
+				"right2":"剃须刀",
+				"right3":"吹风机",
+				"right4":"电饭煲",
+				"right5" : "加湿器",
+				"right6" :"榨汁机",
+			"bgPic":"img/f51.jpg",
+			"titles":[
+			{"id":1, "title":"Emoi小鸟情感小夜灯H0040", "img":"img/f52.JPEG", "price":129},
+			{"id":2, "title":"Remax小水仙加湿器usb迷你便携式办公室桌面静音可爱家用卧室喷雾", "img":"img/f53.JPEG", "price":68},
+			{"id":3, "title":"REMAX新品上市乐风风扇RT-E601LED台灯+迷你风扇简约设计节能省电", "img":"img/f54.JPEG", "price":69},
+			{"id":4, "title":"USB加湿器家用静音卧室办公室迷你空调空气小型便携式净化香薰机", "img":"img/f55.JPEG", "price":65},
+			{"id":5, "title":"Emoi蘑菇情感LED床头灯", "img":"img/f56.JPEG", "price":129},
+			{"id":6, "title":"CUCKOO福库 CRP-G1030MP智能电饭煲锅5L家用韩国原装进口3-10人", "img":"img/f57.JPEG", "price":1092},
+			{"id":7, "title":"韩国进口福库电饭煲（CUCKOO）多功能电饭煲CRP-M1068SR", "img":"img/f58.JPEG", "price":1543},
+			{"id":8, "title":"韩国福库电饭煲(型号：CRP-J0621MB 4L)", "img":"img/f59.JPEG", "price":1337}
+			]
+			},
+			
+			{
+			"id" : 6,
+			"title": "影视动漫周边",
+				"right1":"办公文具",
+				"right2":"上衣/下装",
+				"right3":"裙子/外套",
+				"right4":"COSPLAY",
+				"right5" : "居家宅品",
+				"right6" :"配件包包",
+			"bgPic":"img/f61.jpg",
+			"titles":[
+			{"id":1, "title":"埃罗芒阿老师我的妹妹是黄漫和泉沙雾COSt恤短袖夏装上衣服女", "img":"img/f62.JPEG", "price":59},
+			{"id":2, "title":"二次元动漫周边新世纪福音战士EVA明日香同款猫耳棒球帽毛绒帽子", "img":"img/f63.JPEG", "price":22},
+			{"id":3, "title":"HEROCROSS 变形金刚5人物形象2寸公仔套装（一套4款角色）", "img":"img/f64.JPEG", "price":168},
+			{"id":4, "title":"HEROCROSS变形金刚5最后的骑士4寸公仔擎天柱大黄蜂小摩托威震天", "img":"img/f65.JPEG", "price":128},
+			{"id":5, "title":"咸鱼王周边毛绒挂件抱枕舰队collection舰娘游戏动漫小挂件公仔", "img":"img/f66.JPEG", "price":12},
+			{"id":6, "title":"从零开始的异世界生活各式各样的雷姆蕾姆盒蛋收集式手办日版现货", "img":"img/f67.JPEG", "price":478},
+			{"id":7, "title":"蕾姆拉姆周边动漫内裤男二次元裤子夏季短裤日系沙滩裤卡通老司机", "img":"img/f68.JPEG", "price":45},
+			{"id":8, "title":"赛个睿雷性蛇游戏战队电竞单双肩包机械键盘鼠标耳机外设收纳", "img":"img/f69.JPEG", "price":65}
+			]
+			}
+			]
+}

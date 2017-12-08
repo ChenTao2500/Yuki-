@@ -1,0 +1,401 @@
+@charset "UTF-8";
+/*热卖推荐*/
+img {
+  cursor: pointer;
+}
+
+.header_part .logo_part .search .top .btn {
+  height: 30px;
+  background: #669acc url(../img/ser.jpg) no-repeat 13px 1px;
+}
+
+h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+/*侧边栏*/
+.slide {
+  width: 50px;
+  height: 200px;
+  position: fixed;
+  right: 10px;
+  bottom: 50px;
+}
+.slide .service {
+  border-bottom: none;
+}
+.slide .ba {
+  width: 50px;
+  height: 53px;
+  border: 1px solid #ccc;
+  padding-top: 14px;
+}
+.slide .uu {
+  margin-left: 10px;
+}
+.slide .top {
+  text-align: center;
+  margin-top: 14px;
+  border: none;
+  background: #3d9bea;
+  border-radius: 5px;
+  position: relative;
+  display: none;
+}
+.slide .top img {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+.slide .top .backTop {
+  position: absolute;
+  left: 16px;
+  top: 29px;
+}
+
+/*轮播*/
+.carousel {
+  height: 514px;
+  width: 100%;
+  background: #888;
+  margin-top: 50px;
+  margin-bottom: 58px;
+  position: relative;
+}
+.carousel img {
+  display: none;
+}
+.carousel .carousel-indicators {
+  width: 400px;
+  height: 30px;
+}
+.carousel .carousel-inner {
+  height: 514px;
+}
+.carousel .carousel-inner .item {
+  height: 514px;
+  width: 100%;
+}
+.carousel .carousel-inner .item img {
+  width: 100%;
+  height: 514px;
+}
+.carousel .carousel-control {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+.carousel .left, .carousel .right {
+  text-align: center;
+  line-height: 50px;
+}
+.carousel .right {
+  right: 145px;
+}
+
+/*下拉列表*/
+.List {
+  position: absolute;
+  z-index: 999;
+  width: 753px;
+  height: 514px;
+  left: 49px;
+  top: 145px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.List .typeLi {
+  width: 120px;
+  text-align: center;
+  line-height: 74px;
+  overflow: hidden;
+  background: white;
+}
+.List .typeLi .child_list, .List .typeLi .child2, .List .typeLi .child3, .List .typeLi .child22 {
+  width: 240px;
+  height: 419px;
+  position: absolute;
+  top: 6px;
+  left: 228px;
+  background: white;
+}
+.List .typeLi .child_list .title, .List .typeLi .child2 .title, .List .typeLi .child3 .title, .List .typeLi .child22 .title {
+  margin-right: 131px;
+  margin-top: -13px;
+  line-height: 96px;
+}
+.List .typeLi .child_list .t, .List .typeLi .child2 .t, .List .typeLi .child3 .t, .List .typeLi .child22 .t {
+  line-height: 81px;
+}
+.List .typeLi .child_list .tit, .List .typeLi .child2 .tit, .List .typeLi .child3 .tit, .List .typeLi .child22 .tit {
+  margin-right: 110px;
+}
+.List .typeLi .child_list li, .List .typeLi .child2 li, .List .typeLi .child3 li, .List .typeLi .child22 li {
+  line-height: 50px;
+  line-height: 84px;
+}
+.List .typeLi .child {
+  display: none;
+}
+.List .typeLi .child22 {
+  margin-left: 288px;
+}
+.List .typeLi .child3 li {
+  line-height: 50px;
+}
+.List .typeLi .listImg {
+  width: 45px;
+  height: 49px;
+  margin-top: 15px;
+  margin-right: -7px;
+  float: left;
+}
+
+/*热卖部分*/
+.hot_buy, .xianshi .limit, .ff {
+  height: 385px;
+  width: 1183px;
+  margin-top: -78px;
+  padding: 0 40px;
+}
+.hot_buy .pro, .xianshi .limit .pro, .ff .pro, .xianshi .limit .prot, .xianshi .limit .prot .flex, .xianshi .limit .prot .flex .part {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+.hot_buy .pro img:hover, .xianshi .limit .pro img:hover, .ff .pro img:hover, .xianshi .limit .prot img:hover, .xianshi .limit .prot .flex .part img:hover {
+  transform: scale(1.2, 1.2);
+  transition: all 1s;
+}
+.hot_buy .pro .part1, .xianshi .limit .pro .part1, .ff .pro .part1, .xianshi .limit .prot .part1, .xianshi .limit .prot .flex .part .part1 {
+  height: 330px;
+  width: 249px;
+  position: relative;
+  overflow: hidden;
+}
+.hot_buy .pro .part1 .new, .xianshi .limit .pro .part1 .new, .ff .pro .part1 .new, .xianshi .limit .prot .part1 .new {
+  position: absolute;
+  top: -1px;
+  left: 214px;
+}
+.hot_buy .pro .part1 .text, .xianshi .limit .pro .part1 .text, .ff .pro .part1 .text, .xianshi .limit .prot .part1 .text {
+  font-size: 15px;
+  margin-left: 30px;
+  line-height: 30px;
+}
+.hot_buy .pro .part1 .text a, .xianshi .limit .pro .part1 .text a, .ff .pro .part1 .text a, .xianshi .limit .prot .part1 .text a {
+  color: black;
+}
+.hot_buy .pro .part1 .pric, .xianshi .limit .pro .part1 .pric, .ff .pro .part1 .pric, .xianshi .limit .prot .part1 .pric {
+  color: red;
+  margin-left: 117px;
+}
+
+/*限时抢购*/
+.xianshi {
+  background: #ebf0f5;
+  height: 632px;
+  overflow: hidden;
+}
+.xianshi img:hover {
+  transform: scale(1.2, 1.2);
+  transition: all 1s;
+}
+.xianshi .limit {
+  margin-top: 39px;
+  width: 1263px;
+}
+.xianshi .limit .top {
+  margin-top: -54px;
+  margin-left: 159px;
+  width: 1070px;
+  height: 50px;
+  position: relative;
+}
+.xianshi .limit .top .timer .show_time {
+  width: 220px;
+  height: 150px;
+  position: absolute;
+  left: 114px;
+  top: -8px;
+}
+.xianshi .limit .top .timer .show_time .dot {
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+  top: 1px;
+}
+.xianshi .limit .top .timer .show_time .ii {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: #ec995d;
+  border-radius: 15px;
+  margin: 0 5px;
+  text-align: center;
+  line-height: 32px;
+  color: white;
+  font-size: 13px;
+}
+.xianshi .limit .top .timer p {
+  margin-top: 30px;
+}
+.xianshi .limit .top .more {
+  float: right;
+  margin-top: -12px;
+}
+.xianshi .limit .prot {
+  /*弹性盒*/
+  margin-top: 27px;
+  height: 403px;
+  background: white;
+}
+.xianshi .limit .prot .parts {
+  overflow: hidden;
+}
+.xianshi .limit .prot .flex {
+  /*弹性盒*/
+  height: 379px;
+  width: 949px;
+}
+.xianshi .limit .prot .flex .part {
+  /*弹性盒*/
+  width: 473px;
+  height: 188px;
+  border: 1px solid #ccc;
+}
+.xianshi .limit .prot .flex .part .left {
+  overflow: hidden;
+}
+.xianshi .limit .prot .flex .part .img {
+  width: 215px;
+  height: 188px;
+}
+.xianshi .limit .prot .flex .part .right {
+  padding-top: 17px;
+  width: 240px;
+  height: 171px;
+  margin-left: 16px;
+}
+.xianshi .limit .prot .flex .part .right a {
+  color: black;
+}
+.xianshi .limit .prot .flex .part .right a b {
+  font-size: 15px;
+}
+.xianshi .limit .prot .flex .part .right .price_box {
+  margin-top: 24px;
+}
+.xianshi .limit .prot .flex .part .right .price_box p {
+  font-size: 20px;
+  color: palevioletred;
+}
+.xianshi .limit .prot .flex .part .right .price_box p span {
+  font-size: 12px;
+  text-decoration: line-through;
+  color: #ccc;
+  margin-left: 12px;
+  margin-top: 20px;
+}
+.xianshi .limit .prot .flex .part .right .price_box .bar {
+  margin-bottom: 5px;
+}
+.xianshi .limit .prot .flex .bottom {
+  border-bottom: none;
+}
+.xianshi .limit .prot .flex .rig {
+  border-right: none;
+}
+
+/*楼层开始*/
+.ff {
+  height: 100%;
+}
+.ff ul {
+  width: 480px;
+  height: 16px;
+  float: right;
+  margin-top: -38px;
+}
+.ff ul li {
+  float: left;
+  height: 15px;
+  padding: 0 17px;
+  border-right: 1px solid #ccc;
+}
+.ff ul li:nth-child(6) {
+  border-right: none;
+}
+.ff ul li a {
+  color: #C2CCD1;
+}
+.ff ul span {
+  float: right;
+}
+.ff .products {
+  width: 1173px;
+  height: 484px;
+  border: 1px solid #CCc;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+.ff .products img {
+  height: 166px;
+  width: 192px;
+  margin-top: 20px;
+}
+.ff .products img:hover {
+  transform: scale(1.2, 1.2);
+  transition: all 1s;
+}
+.ff .products div {
+  border-left: none;
+}
+.ff .products .top {
+  border-top: none;
+  border-bottom: none;
+}
+.ff .products .right {
+  border-right: none;
+}
+.ff .products .big_product {
+  width: 468px;
+  height: 242px;
+  border: 1px solid #CCc;
+  overflow: hidden;
+  border-top: none;
+  border-left: none;
+}
+.ff .products .big_product img {
+  width: 425px;
+  height: 173px;
+  margin-left: 10px;
+}
+.ff .prot {
+  width: 233px;
+  height: 242px;
+  overflow: hidden;
+  border: 1px solid #CCc;
+}
+.ff .prot img {
+  margin-left: 20px;
+}
+.ff .prot:nth-of-type(1) {
+  border-bottom: 1px solid #ccc;
+}
+.ff .prot .title {
+  width: 195px;
+  height: 23px;
+  overflow: hidden;
+  margin-left: 20px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.ff .prot .price {
+  margin-left: 92px;
+  color: red;
+}
+
+/*# sourceMappingURL=index.css.map */

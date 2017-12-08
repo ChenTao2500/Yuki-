@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="time">
+	<!-- 注释 -->
+	<div>
+		<span>文本</span>
+	</div>
+	<script>
+		// 倒计时终点
+		var deadline = new Date(2017, 12, 25, 8, 05, 05);
+		console.log(deadline);
+		var timer = setInterval(function(){
+			// 当前时间
+			var now = new Date();
+			// 时间差
+			var diff = deadline - now;
+			// 将时间差毫秒值先换成总秒数
+			var seconds = Math.ceil(diff / 1000); // 62
+			// 将总秒数换算为天时分秒
+			var second = ("0" + seconds % 60).slice(-2),
+				minute = ("0" + Math.floor(seconds / 60) % 60).slice(-2),
+				hour = ("0" + Math.floor(seconds / 3600) % 24).slice(-2),
+				day = Math.floor(seconds / (24 * 60 * 60));
+			// console.log(day + " 天 " + hour + " : " + minute + " : " + second);
+			document.getElementById("time").value = day + " 天 " + hour + " : " + minute + " : " + second;
+
+			// 判断是否到达计时终点
+			if (seconds <= 0) {
+				clearInterval(timer);
+				document.getElementById("time").value = "计时结束";
+			}
+		}, 1000);
+	</script>
+</body>
+</html>
+
+
