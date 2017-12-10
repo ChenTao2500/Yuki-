@@ -18,7 +18,7 @@
 			{{each lists as list index}}
 			<div class="part1">
 					<input type="hidden" class="id"  value="{{list.id}}"/>
-					<a href="detail.html"><img class="img" src="{{list.img}}"/></a>
+					<div class="over"><a href="detail.html"><img class="img" src="{{list.img}}"/></a></div>
 					<a href="detail.html"><p title="{{list.title}}" class="title">{{list.title}}</p></a>
 					<a href="detail.html" style="position: relative;">
 						<b style="color: red;position                                                                                                                                                                                              : absolute;left: 75px; font-weight: normal;">￥：</b>
@@ -33,7 +33,7 @@
 			{{each likes as like index}}
 				<div class="like" >
 					<input type="hidden"  value="{{like.id}}" />
-					<a href="detail.html"><img src="{{like.img}}" class="img"/></a>
+					<div class="over1"><a href="detail.html"><img src="{{like.img}}" class="img"/></a></div>
 					<a href="detail.html"><p class="title">{{like.title}}</p></a>
 					<a href="detail.html"><span class="price">￥：{{like.price}}.0</span></a>
 				</div>

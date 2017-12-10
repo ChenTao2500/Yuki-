@@ -16,12 +16,23 @@ $w : 1188px;
             border: 1px solid #ccc;
             border-radius: 5px;
             margin-top: 28px;
-            img{
-                width:200px;
+            .over{
+                width: 200px;
                 height: 200px;
+                overflow: hidden;
                 margin-left: 34px;
                 margin-top: 23px;
+                background: yellow;
+                img{
+                    width: 200px;
+                    height: 200px;
+                }
+                img:hover{
+                    transform: scale(1.2, 1.2);
+                    transition: all 3s; 
+                }
             }
+            
             p{
                 margin-left: 39px;
                 margin-bottom: 8px;

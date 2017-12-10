@@ -12,7 +12,6 @@ require(["config"], function(){
 		// 侧边栏固定
 		var slide_top = $(".hot_buy").offset().top; // 热卖商品距离顶部距离
 		var winHeight = $(window).height(); // 窗口高度
-
 		$(window).on("scroll", function(){
 			
 			var _scrollHeight = $(document).scrollTop(); // 当前滚动高度
@@ -23,43 +22,33 @@ require(["config"], function(){
 			}else{
 				$("#goback").hide();
 			}
-		// 固定栏
+			
+		// 搜索栏吸顶
 		var _top = $("#logo").offset().top;
-			console.log(_top);
+		var head_top = $("#head_nav").height();
+		var topAll = _top + head_top;
+//			console.log(_top)
+			
 			// 文档滚动高度
 			var scroll_top = $(document).scrollTop();
-			if(scroll_top > _top){
+			console.log(scroll_top);
+			if( scroll_top >= _top){
 				$(".logo_part").css({
 					"position" : "fixed",
 					"top" : 0
 				});
-			$(".main").css("margin-top", $(".logo-part").height());
+			$(".main").css("margin-top",0);
 			}else{
-				$(".logo-part").css({
+			console.log("njo");
+				$(".logo_part").css({
 					"position" : "static",
-					"top" : 0
+					"top":0
+					
 				});
+				
 				$(".main").css("margin-top", 0);
 			}
 		});
-		// 搜索栏吸顶
-		var _top = $("#logo").offset().top;
-			console.log(_top);
-			// 文档滚动高度
-			var scroll_top = $(document).scrollTop();
-			if(scroll_top > _top){
-				$(".logo_part").css({
-					"position" : "fixed",
-					"top" : 0
-				});
-			$(".main").css("margin-top", $(".logo-part").height());
-			}else{
-				$(".logo-part").css({
-					"position" : "static",
-					"top" : 0
-				});
-				$(".main").css("margin-top", 0);
-			}
 	});
 	
 	// 倒计时
@@ -83,30 +72,7 @@ require(["config"], function(){
 			clearInterval(timer);
 	}, 1000);
 	
-//	 搜索栏吸顶
-//	require(["jquery"], function(){
-//		$(window).ready(function(){
-//			var _top = $("#logo").offset().top;
-//			console.log(_top);
-//			// 文档滚动高度
-//			var scroll_top = $(document).scrollTop();
-//			if(scroll_top > _top){
-//				$(".logo_part").css({
-//					"position" : "fixed",
-//					"top" : 0
-//				});
-//			$(".main").css("margin-top", $(".logo-part").height());
-//			}else{
-//				$(".logo-part").css({
-//					"position" : "static",
-//					"top" : 0
-//				});
-//				$(".main").css("margin-top", 0);
-//			}
-//		});
-//	});
-	
-	
+
 	// 轮播图
 	require(["jquery","bootstrap"], function() {
 		$(".carousel").carousel({ // 控制切换时间
@@ -125,6 +91,7 @@ require(["config"], function(){
 			});
 		});
 	});
+	
 	// 下拉列表(bug)
 	require(["jquery"], function(){
 		$(".typeLi").hover(function(){

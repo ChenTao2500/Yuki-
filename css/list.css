@@ -1,54 +1,74 @@
 .main {
   width: 1188px;
-  margin: auto; }
-  .main .box, .main .s {
-    width: 1188px;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    flex-flow: wrap;
-    margin-top: 28px; }
-    .main .box .part1, .main .s .part1 {
-      width: 269px;
-      height: 301px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      margin-top: 28px; }
-      .main .box .part1 img, .main .s .part1 img {
-        width: 200px;
-        height: 200px;
-        margin-left: 34px;
-        margin-top: 23px; }
-      .main .box .part1 p, .main .s .part1 p {
-        margin-left: 39px;
-        margin-bottom: 8px;
-        margin-top: 10px;
-        width: 200px;
-        height: 19px;
-        overflow: hidden; }
-      .main .box .part1 span, .main .s .part1 span {
-        margin-left: 98px;
-        color: red; }
-    .main .box .like, .main .s .like {
-      width: 209px;
-      height: 301px;
-      border: 1px solid #ccc;
-      margin-top: 20px;
-      border-radius: 5px; }
-      .main .box .like img, .main .s .like img {
-        width: 150px;
-        height: 206px;
-        margin-left: 30px;
-        margin-top: 23px; }
-      .main .box .like p, .main .s .like p {
-        margin-left: 31px;
-        margin-bottom: 8px;
-        margin-top: 10px;
-        width: 163px;
-        height: 19px;
-        overflow: hidden; }
-      .main .box .like span, .main .s .like span {
-        margin-left: 82px;
-        color: red; }
+  margin: auto;
+}
+.main .box, .main .s {
+  width: 1188px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  margin-top: 28px;
+}
+.main .box .part1, .main .s .part1 {
+  width: 269px;
+  height: 301px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 28px;
+}
+.main .box .part1 .over, .main .s .part1 .over {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin-left: 34px;
+  margin-top: 23px;
+  background: yellow;
+}
+.main .box .part1 .over img, .main .s .part1 .over img {
+  width: 200px;
+  height: 200px;
+}
+.main .box .part1 .over img:hover, .main .s .part1 .over img:hover {
+  transform: scale(1.2, 1.2);
+  transition: all 3s;
+}
+.main .box .part1 p, .main .s .part1 p {
+  margin-left: 39px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  width: 200px;
+  height: 19px;
+  overflow: hidden;
+}
+.main .box .part1 span, .main .s .part1 span {
+  margin-left: 98px;
+  color: red;
+}
+.main .box .like, .main .s .like {
+  width: 209px;
+  height: 301px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.main .box .like img, .main .s .like img {
+  width: 150px;
+  height: 206px;
+  margin-left: 30px;
+  margin-top: 23px;
+}
+.main .box .like p, .main .s .like p {
+  margin-left: 31px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  width: 163px;
+  height: 19px;
+  overflow: hidden;
+}
+.main .box .like span, .main .s .like span {
+  margin-left: 82px;
+  color: red;
+}
 
 /*# sourceMappingURL=list.css.map */

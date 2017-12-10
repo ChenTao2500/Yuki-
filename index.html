@@ -215,6 +215,9 @@
 				<div class="item">
 					<img src="img/lunbo4.JPEG" alt="Third slide">
 				</div>
+				<div class="item">
+					<img src="img/lunbo5.JPEG" alt="Third slide">
+				</div>
 			</div>
 			<!-- 轮播（Carousel）导航 -->
 			<a class="carousel-control left" href="#myCarousel"
@@ -233,8 +236,11 @@
                     <div class="gouwudai" style="text-align: center;">购物袋</div>
             </div>
            	<div class="top ba" id="goback">
-           		<img src="http://yukicomic-pic.oss-cn-hangzhou.aliyuncs.com/yukicomicNew/Arrow-index.png" alt="" class="topIcon">
-           		<a href="#"><span class="backTop">Top</span></a>
+           		
+           		<a href="#">
+           			<img src="http://yukicomic-pic.oss-cn-hangzhou.aliyuncs.com/yukicomicNew/Arrow-index.png" alt="" class="topIcon">
+           			<span class="backTop">Top</span>
+           		</a>
            	</div>
         </div>
 		<!--热卖推荐-->
@@ -369,9 +375,9 @@
 					</div>
 					{{each product.titles as prod}}
 						<div class="prot top">
-							<a href="#"><img class="img" src="{{prod.img}}"/></a>
-							<a href="#"><p class="title">{{prod.title}}</p></a>
-							<a href="#"><span class="price" >￥：{{prod.price}}.0</span></a>
+							<div class="over"><a href="#"><img class="img" src="{{prod.img}}"/></a></div>
+							<div class="over"><a href="#"><p class="title">{{prod.title}}</p></a></div>
+							<div class="over"><a href="#"><span class="price" >￥：{{prod.price}}.0</span></a></div>
 						</div>
 					{{/each}}
 				</div>
