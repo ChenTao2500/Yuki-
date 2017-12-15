@@ -1,5 +1,5 @@
 require(["config"], function(){
-	require(["jquery","template", "load", "cookie"], function($,template){
+	require(["jquery","template", "load", "cookie","con"], function($,template){
 		
 		// 模拟数据部分
 		$.getJSON("../mock/like.json", function(Data){
@@ -34,38 +34,50 @@ require(["config"], function(){
 								<div class="amount"><span class="minus"></span><input type="text" class="amount_val" value="${prod.amount}" size="1" /><span class="add"></span></div>
 								<div class="youhui">暂无优惠</div>
 								<div class="sub">${(prod.price*prod.amount).toFixed(2)}</div>
-								<div class="oper"><a class="del" href="javascript:void(0);">X</a></div>
+								<div class="oper"><input type="button"  class="del" id="confirm" value="X"></div>
 							</div>`;
+							// <input id="confirm" type="button" value="X" /> 
 				});
 				$(".cart_body").html(html);
 			}
-			show_pro() 
+			show_pro(); // 调用显示商品函数
 			
-			$(".cart_body").click(function(e){
+			$(".cart_body").mouseenter(function(e) {
+				var curr = $(".row").find("#confirm");
 				e = e || event;
 				var src = e.target || e.srcElement;
 				// 删除商品
-				if(src.className === "del"){
-					if(confirm("您确定要删除吗？")){
-					// 获取删除链接所在行
-					var _row = src.parentNode.parentNode;
-					
-					var _id = $(_row).children(".id").val(); // 商品 id
-					var index = exist(_id, _products); // 商品下标
-					
-					_products.splice(index, 1); // 从数组中删除元素
-					
-					$.cookie("products", _products, {expires:7,path:"/"}); // 将数组结构覆盖保存回 cookie 中
-	
-					$(_row).remove(); // 从DOM结构中删除行
-					
-					if(_products.length === 0){
-						$(".cart_body").html("<a href='list.html'><img style='margin-left:293px' src='../img/cartt.png'/></a>");
-					}
-				}
-				}
+				// if(src.className === "del"){
+
+					$(curr).click(function () {   
+         				 myConfirm('','确定要删除吗？', function(r){ 
+             			if(r){  
+               
+						// 获取删除链接所在行
+						var _row = src.parentNode.parentNode;
+						
+						var _id = $(_row).children(".id").val(); // 商品 id
+						var index = exist(_id, _products); // 商品下标
+						
+						_products.splice(index, 1); // 从数组中删除元素
+						
+						$.cookie("products", _products, {expires:7,path:"/"}); // 将数组结构覆盖保存回 cookie 中
+		
+						$(_row).remove(); // 从DOM结构中删除行
+						
+						if(_products.length === 0){
+							$(".cart_body").html("<a href='list.html'><img style='margin-left:293px' src='../img/cartt.png'/></a>");
+						}
+             } 
+         });       
+     });  
+				
 			});
 			
+
+
+
+
 			// 全选功能
 				$("#ck_all").click(function(){
 					$(".cart_body .ck_prod").prop("checked",$(this).prop("checked"));

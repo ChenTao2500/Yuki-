@@ -8,10 +8,14 @@ require.config({
 		"template" : "lib/arttemplate/template",
 		"bootstrap" : "lib/bootstrap/js/bootstrap.min",
 		"zoom" : "lib/jquery_plugins/jquery.elevateZoom-2.2.3.min",
-		"fly" :"lib/jquery_plugins/jquery.fly.min"
+		"fly" :"lib/jquery_plugins/jquery.fly.min",
+		"con" : "confirm"
 	},
 	shim : {
 		"bootstrap" : {deps:["jquery"]},
-		 "zoom" : {deps:["jquery"]}
+		 "zoom" : {deps:["jquery"]},
+		 "con" : {deps:["jquery"]}
 		}
 });
+
+

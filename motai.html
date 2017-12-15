@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>Bootstrap 实例 - 模态框（Modal）插件</title>
+	
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+	<script src="lib/jquery/jquery-1.12.4.min.js"></script>
+	<script src="lib/bootstrap//js/bootstrap.min.js"></script>
+	<style>
+		/*#myModal{
+			width: 400px !important;
+			height: 200px !important;
+			margin: 200px auto;
+			overflow: hidden;
+		}
+		.modal-body{
+			width: 400px !important;
+			height: 200px !important;	
+		}
+		.modal-dialog{
+			width: 400px;
+			height: 200px;
+			
+		}*/
+	</style>
+</head>
+<body>
+
+
+<!-- 按钮触发模态框 -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	点击
+</button>
+
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	点击1
+</button>
+
+<pre>
+	fdlkjgfdlsdkkljgpsdfsd;lfkspdkf;lsd
+	sdlkrpogkr
+	dfl;gkopfdkgfd
+	fd;lgh[pytrf;hlfhgf'[
+	erklkyhklt;r'h]]
+</pre>
+
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+			</div>
+			<div class="modal-body">
+				确定要删除吗？
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">确定
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+	<script>
+		$('#identifier').modal()
+	</script>
+</body>
+</html>

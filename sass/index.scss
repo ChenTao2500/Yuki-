@@ -81,7 +81,6 @@ $border : 1px solid #CCc;
         }
         }
     .carousel-control{
-            display: block;
             display: none;
             width: 50px;
             height: 50px;
@@ -90,6 +89,7 @@ $border : 1px solid #CCc;
             text-align: center;
             line-height: 50px;
         }
+    .left{left: 200px;}
     .right{right: 145px;}
        
 }

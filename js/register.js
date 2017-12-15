@@ -9,7 +9,6 @@ require(["config"], function(){
 				data : {phone:$(".phone").val()},
 				dataType : "json",
 				success : function(resData){
-					console.log(resData)
 					if(resData.status === 1){
 						$(".info").text("用户名已被占用");
 						isPhoneExist = true;
@@ -40,6 +39,7 @@ require(["config"], function(){
 							$(".err").text("注册失败，请重试！")
 					}
 				});
+				
 			}
 		});
 		// 验证码

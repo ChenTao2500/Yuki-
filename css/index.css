@@ -87,7 +87,6 @@ h1 {
   height: 514px;
 }
 .carousel .carousel-control {
-  display: block;
   display: none;
   width: 50px;
   height: 50px;
@@ -95,6 +94,9 @@ h1 {
 .carousel .left, .carousel .right {
   text-align: center;
   line-height: 50px;
+}
+.carousel .left {
+  left: 200px;
 }
 .carousel .right {
   right: 145px;

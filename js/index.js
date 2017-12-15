@@ -24,7 +24,7 @@ require(["config"], function(){
 			}
 			
 		// 搜索栏吸顶
-		var _top = $("#logo").offset().top;
+		var _top = $("#logo").height();
 		var head_top = $("#head_nav").height();
 		var topAll = _top + head_top;
 //			console.log(_top)
@@ -78,7 +78,7 @@ require(["config"], function(){
 		$(".carousel").carousel({ // 控制切换时间
    			 interval: 2000
 		})
-		$("#myCarousel").hover(function(){
+		$(".carousel").hover(function(){
 			$(".carousel-control ").css({
 				background:"blue",
 				display : "block",
